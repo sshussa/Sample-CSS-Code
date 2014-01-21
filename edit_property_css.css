@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+.edit_class{
+	border-bottom: solid 2px #242424;
+	background-color: #FAB004;
+	color: #000000;
+	height:35px;
+	border-radius: 4px 4px 0 0;
+	}
+.edit_class_h2{
+	padding-left:10px;
+	padding-top:2px;
+	color: #000000;
+	}
+.edit_form_post_property{
+	width:210px;
+	margin-right:2px;
+	margin-top: 16px;
+	float:left;
+	}
+.edit_form_property_type{
+	width: 210px;
+	margin-left:-22px;
+	margin-top: 16px;
+	float:left;
+	}
+.edit_form_city{
+	width: 150px;
+	margin-left:0px;
+	padding-top:100px;
+	}
+.edit_form_locality{	
+	width: 210px;
+	height:56px;
+	margin-left:30px;
+	margin-right:8px;
+	margin-top: -31px;
+	float:left;
+	}
+.edit_form_surr{
+	width:70px;
+	margin-left:30px;
+	margin-top: -25px;
+	float:left;
+}
+.edit_form__trans{
+	width:70px;
+	margin-right:40px;
+	margin-top: 88px;
+}
+.edit_form__beds{
+	width:130px;	
+	margin-left:30px;
+	margin-right:15px;
+	margin-top: -31px;
+	float:left;
+	}
+.edit_form__baths{
+	width:200px;
+	margin-left:105px;
+	margin-right:15px;
+	margin-top: -26px;
+	float:left;
+	}
+.edit_form_age{
+	width:120px;
+	margin-left:0px;
+	margin-right:15px;
+	margin-top: 35px;
+	float:left;
+	}
+.edit_form_covered_area{
+	width:110px;
+	margin-left:50px;
+	margin-right:15px;
+	margin-top: 35px;
+	float:left;
+	}
+.edit_form_covered_area_type{
+	margin-top: 35px;
+	float:left;
+	}
+.edit_form_plot_area{
+	width:100px;
+	margin-left:85px;
+	margin-top: 30px;
+	float:left;
+	}
+.edit_form_plot_area_type{
+	margin-top: 35px;
+	float:left;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

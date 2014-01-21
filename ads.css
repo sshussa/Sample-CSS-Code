@@ -1,0 +1,195 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+
+figure {border:#fff 1px solid;}
+
+
+a {text-decoration:none; cursor:pointer;}
+a:hover {
+	text-decoration:underline;
+	color: #FAB004;
+}
+
+.color5 {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#fff; line-height:21px; text-transform:uppercase;}
+
+.link {
+	background:url(../images/play.png) 0 0 no-repeat;
+	width:29px;
+	height:29px;
+	cursor:pointer;
+	margin-top:5px;
+	float: right;
+	margin-right: 10px;
+}
+.link:hover {
+	background:url(../images/play.png) 0 bottom no-repeat;
+	float: right;
+}
+
+.linkleft {
+	margin-top: -15px;
+	height: 29px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.linkleft1{
+	font-weight:bold;
+	margin-top:-15px;
+	height:29px;
+	cursor:pointer;
+	float: left;
+	margin-right: 10px;
+	
+}
+
+
+.link1 {
+	background:url(../images/play.png) 0 0 no-repeat;
+	width:29px;
+	height:29px;
+	cursor:pointer;
+	margin-top:2px;
+	float: left;
+	margin-left: 25px;
+}
+.link1:hover {
+	background:url(../images/play.png) 0 bottom no-repeat;
+	float: left;
+}
+
+
+/*********************************boxes**********************************/
+
+.wrapper {overflow:hidden; position:relative; width:100%;}
+.extra-wrap {
+	overflow:hidden;
+	margin-top: 10px;
+}
+.container {width:100%;}
+.reg {text-transform:uppercase;}
+.right {text-align:right;}
+.left {text-align:left;}
+.center {text-align:center;}
+.flft {float:left;}
+.frght {float:right;}
+.fadrght {
+	float:right;
+	margin-right:15px;
+	margin-top:10px;
+}
+.it {font-style:italic;}
+.letter {letter-spacing:-1px;}
+.flft_logo {
+	float:left;
+	padding: 5px 5px 5px 5px;
+}
+.text-und {text-decoration:underline;}
+.font_norm {font-weight:normal;}
+.font_bold {font-weight:bold;}
+.last {margin-right:0px !important; padding-right:0px !important;}
+.line_height {line-height:21px;}
+.line_height-2 {line-height:18px !important; }
+.line_height2 {line-height:16px;}
+.img-indent {
+	float:left;
+	margin:10px 20px 0px 0;
+}	
+.img-indent-2 {float:left; margin:0 0px 0px 0;}	
+.nowrap {white-space:nowrap;}
+
+.bot-2 {margin-bottom:17px;}
+.bot-3 {margin-bottom:24px;}
+.bot-4 {margin-bottom:20px;}
+.bot-5 {margin-bottom:16px;}
+
+.lightbox-image {position:relative; display:inline-block;}
+.lightbox-image img {position:relative; z-index:2;}
+.lightbox-image span {position:absolute; width:100%; height:100%; top:0; left:0; background:url(../images/magnify.png) 50% 50% no-repeat #fff;}
+
+.hover-caption {
+	display:block;
+	position:relative;
+	background:#222;
+	overflow:hidden;
+}
+
+.hover-caption1 {
+	display:block;
+	position:relative;
+	background:#222;
+	overflow:hidden;
+	height:200px;
+}
+
+.hover-caption2 {
+	display:block;
+	position:relative;
+	background:#222;
+	overflow:hidden;
+	height:142px;
+	line-height: 25px;
+	-moz-line-height: 40px;
+	width: 198px;
+}
+
+.hover-caption3 {
+	display:block;
+	position:relative;
+	background:#222;
+	overflow:hidden;
+	height:150px;
+}
+
+.hover-caption4 {
+	display: block;
+	position: relative;
+	background: #222;
+	overflow: hidden;
+	/* [disabled]height: 113px; */
+	/* [disabled]line-height: 25px; */
+	/*  -moz-line-height: 40px; */
+	width: 218px;
+}
+
+.hover-caption {
+	display:block;
+	position:relative;
+	background:#222;
+	overflow:hidden;
+}
+
+.hover-caption div {
+	position: absolute;
+	bottom: -259px;
+	left: 2px;
+	margin: 10px 10px 0px 30px;
+}
+.hover-caption1 div {
+	position:absolute;
+	bottom:-190px;
+	left:0;
+	margin:10px 10px 40px 20px;
+	height: 107px;
+}
+
+.textads {
+	display:block;
+	position:relative;
+	overflow:hidden;
+	height:75px;
+	line-height: 25px;
+	-moz-line-height: 40px;
+	width: 218px;
+}
+
+
+.logo-caption {
+	opacity:1;
+}
+
+.logo-caption:hover {
+	opacity:0.05;
+}

@@ -1,0 +1,20 @@
+.tabs
+{
+	margin:0px 0 0 0; 
+	width:240px; 
+	overflow:hidden; 
+	min-height:525px; 
+}
+
+.tabs>div { position:relative; background:#181818;}
+.tab-content { padding:24px 0 2px 0; background:#181818;}
+.tabs ul.nav {list-style-image:none; margin:0px 0 0px 0px; display:block; overflow:hidden; background:url(../images/tab-ul.png) 0 bottom repeat-x; padding-bottom:5px;}
+.tabs ul.nav li {float:left; display:inline-block; background:url(../images/tab-li.gif) right 0 no-repeat; width:79px;  border-right:transparent 1px solid; }
+.tabs ul.nav li+li+li {border-right:none !important; background:transparent 0 0 no-repeat; width:80px;}
+.tabs ul.nav li a {font: bold 14px/20px 'Open Sans', sans-serif; color:#fff; letter-spacing:0px; display:block; padding:14px 0px 15px 0px; white-space:nowrap; overflow:hidden; text-align:center;}
+.tabs ul.nav li.selected {background:url(../images/tab-li.jpg) 0 0 repeat-x; border-right:#111111 1px solid;}
+.tabs ul.nav li.selected a{}
+.tabs ul.nav li:hover {background:url(../images/tab-li.jpg) 0 0 repeat-x; border-right:#111111 1px solid;}
+.tabs ul.nav li:hover a{}
+
+.tab-content a.button {margin-top:26px;}

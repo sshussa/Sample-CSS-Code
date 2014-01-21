@@ -1,0 +1,119 @@
+
+/*! jQuery UI - v1.9.1 - 2012-10-25
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css, jquery.ui.theme.css
+* Copyright 2012 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:before, .ui-helper-clearfix:after { content: ""; display: table; }
+.ui-helper-clearfix:after { clear: both; }
+.ui-helper-clearfix { zoom: 1; }
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+.ui-tabs {
+	position: relative;
+	padding: 2px;
+	zoom: 1;
+	/* [disabled]margin-left: -20px; */
+} /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: 0 2px 0;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 0px 2px 0 0;
+	border-bottom: 0;
+	padding: 2px 0 0 0;
+	white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav li a {
+	float: left;
+	padding: 5.4px 20.2px;
+	text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	/* [disabled]padding-bottom: 1px; */
+	
+}
+
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1px 1.4px;
+	background: none;
+}
+
+.ui-tooltip {
+	/* [disabled]padding: 8px; */
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+/* Fades and background-images don't work well together in IE6, drop the image */
+* html .ui-tooltip {
+	background-image: none;
+}
+body .ui-tooltip { border-width: 2px; }
+
+/* Component containers
+----------------------------------*/
+.ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
+.ui-widget-content {
+	/* [disabled]border: 1px solid #aaaaaa; *//*{borderColorContent}*/
+	/* [disabled]background: #ffffff|*{bgColorContent}*| url(images/ui-bg_flat_75_ffffff_40x100.png)|*{bgImgUrlContent}*| 50%|*{bgContentXPos}*| 50%|*{bgContentYPos}*| repeat-x; *//*{bgContentRepeat}*/
+	color: #222222/*{fcContent}*/;
+}
+.ui-widget-content a { color: #222222/*{fcContent}*/; }
+.ui-widget-header {
+	/* [disabled]border: 1px solid #aaaaaa; *//*{borderColorHeader}*/
+	/* [disabled]background: #cccccc|*{bgColorHeader}*| url(images/ui-bg_highlight-soft_75_cccccc_1x100.png)|*{bgImgUrlHeader}*| 50%|*{bgHeaderXPos}*| 50%|*{bgHeaderYPos}*| repeat-x; *//*{bgHeaderRepeat}*/
+	color: #222222/*{fcHeader}*/;
+	font-weight: bold;
+}
+.ui-widget-header a { color: #222222/*{fcHeader}*/; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	/* [disabled]border: 1px solid #000000; *//*{borderColorDefault}*/
+	font-weight: bold/*{fwDefault}*/;
+	color: #FAB004;/*{fcDefault}*/
+	font-size: 12px;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	color: #FAB004/*{fcDefault}*/;
+	text-decoration: none;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	/* [disabled]border: 1px solid #FAB004; *//*{borderColorHover}*/
+	/* [disabled]background: #FAB004; */
+	font-weight: bold/*{fwDefault}*/;
+	color: #212121/*{fcHover}*/;
+}
+.ui-state-hover a, .ui-state-hover a:hover, .ui-state-hover a:link, .ui-state-hover a:visited { color: #ffffff/*{fcHover}*/; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	/* [disabled]border: 1px solid #FAB004; *//*{borderColorActive}*/
+	/* [disabled]background: #FAB004; */
+	background-image:url(../images/arrow.png);
+	background-repeat:no-repeat;
+	width: 100px;
+	height: 40px;
+	font-weight: bold/*{fwDefault}*/;
+	color: #212121/*{fcActive}*/;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121/*{fcActive}*/; text-decoration: none; }
+

@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+color: #1a1a1a;
+background-color: #1a1a1a;
+font-size: 12px;
+font: 12px/18px "Lucida Grande",Lucida,Verdana,sans-serif;
+margin: 0;
+}
+
+a, h1, h2, h3, h4, h5, strong, font,img{
+float: none;
+font-weight: bold;
+background:transparent;
+border:0 none;
+color: #1a1a1a;
+}
+
+
+#compare_main {
+width: 100%;
+margin-left: auto;
+float: left;
+margin-right: auto;
+}
+
+#compare_main .inner {
+	width: 950px;
+	margin-left:5px;
+	background-repeat: no-repeat;
+}
+
+#compare_content {
+	width: 950px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#compare_content #top {
+	width: 950px;
+	height: 85px;
+	background-color: #FAB004;
+	border-radius: 4px 4px 0 0;
+	color: #fff;
+	border-bottom: solid 1px #242424;
+}
+
+#compare_content #top .head {
+	width: 185px;
+	height: 70px;
+	float: left;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#compare_content #top .head.first {
+	padding-left: 8px;
+	width: 200px;
+}
+
+#compare_content #top .head h3 {
+	text-shadow: none;
+	font-size: 13px;
+	color: #000;
+	/* [disabled]line-height: 2px; */
+}
+
+#compare_content #top .head p {
+font-size: 12px;
+color: #000;
+line-height: 20px;
+font-weight: bold;
+}
+
+.row_odd {
+	width: 948px;
+	float: left;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	font-weight: bold;
+	background: #FFF;
+}
+
+.row_odd .future {
+	width: 190px;
+	float: left;
+	padding-right: 14px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 34px;
+	color: #222;
+}
+
+.row_odd .column {
+	width: 185px;
+	float: left;
+	text-align: center;
+	line-height: 34px;
+	border-left: 1px solid #e0e0e0;
+	height: 34px;
+	font-size: 12px;
+	background: #FFF;
+}
+
+.row_odd .column h4 {
+font-size: 14px;
+}
+
+.row.alt {
+background-color: #f1f1f1;
+}
+
+.row_even {
+	width: 948px;
+	float: left;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	font-weight: bold;
+	background: #f1f1f1;
+}
+
+.row_even .future {
+	width: 190px;
+	float: left;
+	padding-right: 14px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 34px;
+	color: #222;
+}
+
+.row_even .column {
+	width: 185px;
+	float: left;
+	text-align: center;
+	line-height: 34px;
+	border-left: 1px solid #e0e0e0;
+	height: 34px;
+	font-size: 12px;
+	background: #f1f1f1;
+}
+
+.row_even .column h4 {
+	font-size: 14px;
+}
+
+.row_head {
+	width: 950px;
+	height: 25px;
+	float: left;
+	padding-top: 8px;
+	font-weight: bold;
+	background: #FAB004;
+}
+
+.row_head .future {
+	width: 230px;
+	float: left;
+	padding-left: 50px;
+	font-size: 12px;
+	color: #222;
+	margin-top:-4px;
+}
